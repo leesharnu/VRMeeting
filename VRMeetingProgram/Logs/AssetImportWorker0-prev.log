@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1586; Version 2009; 64bit' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/khl3846/Documents/GitHub/VRMeeting/VRMeetingProgram
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+7175
+Successfully changed project path to: C:/Users/khl3846/Documents/GitHub/VRMeeting/VRMeetingProgram
+C:/Users/khl3846/Documents/GitHub/VRMeeting/VRMeetingProgram
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/khl3846/Documents/GitHub/VRMeeting/VRMeetingProgram/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti (ID=0x2182)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56420
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003481 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 36.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.140 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1140ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (397ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (138ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.959 seconds
+Domain Reload Profiling:
+	ReloadAssembly (960ms)
+		BeginReloadAssembly (143ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (755ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (334ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (71ms)
+				ProcessInitializeOnLoadAttributes (243ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1441 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 69.4 MB.
+System memory in use after: 69.5 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 3.293000 ms (FindLiveObjects: 0.177800 ms CreateObjectMapping: 0.039500 ms MarkObjects: 2.991900 ms  DeleteObjects: 0.082600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: e54d7ab0439102e2317fc1e4b246158d -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Supercyan
+  artifactKey: Guid(099c199ef47ea2b4e90dda631f2a9086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan using Guid(099c199ef47ea2b4e90dda631f2a9086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbd310060deaa390fc224f3b23212ec') in 0.009032 seconds 
+  Import took 0.011441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.997299 seconds.
+  path: Assets/Supercyan/Models
+  artifactKey: Guid(b022269c0c1a6894babb865ee48dad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Models using Guid(b022269c0c1a6894babb865ee48dad6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '826fbb268c84c6612eaca7f3d5c16027') in 0.007573 seconds 
+  Import took 0.010040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.334833 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers
+  artifactKey: Guid(70a92094cf8e3714a8e335b57bcb7498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers using Guid(70a92094cf8e3714a8e335b57bcb7498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb07db9de34b9f802cee7e4d221c417') in 0.008254 seconds 
+  Import took 0.010720 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.970433 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base
+  artifactKey: Guid(75e92db717eade34ab839594b494e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base using Guid(75e92db717eade34ab839594b494e5eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad610c9343c422b5bc9a870ae68e4495') in 0.006059 seconds 
+  Import took 0.008484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.203429 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality
+  artifactKey: Guid(b736521e6f252d649b92e8820b33c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality using Guid(b736521e6f252d649b92e8820b33c6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b991d72674c94493192c265b1a44804d') in 0.010738 seconds 
+  Import took 0.013148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804407 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A
+  artifactKey: Guid(af26cf32d07283a47b082ef879b32f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A using Guid(af26cf32d07283a47b082ef879b32f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088660f5014b9de0b5f85aa9e791096f') in 0.006672 seconds 
+  Import took 0.009121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072887 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_A.prefab
+  artifactKey: Guid(514a388f84fb4e0429eaf4558128f4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_A.prefab using Guid(514a388f84fb4e0429eaf4558128f4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b558cd87ae1bb84ec3db22bfa7b38238') in 0.372555 seconds 
+  Import took 0.383788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_D.prefab
+  artifactKey: Guid(bfc6ddbc001bfce469b8e36502ddbf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_D.prefab using Guid(bfc6ddbc001bfce469b8e36502ddbf42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929db3c55bbcdc07bb7db2d4cd666e0d') in 0.173991 seconds 
+  Import took 0.185406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_C.prefab
+  artifactKey: Guid(2a61b219f66bfb04897a0a91064ee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_C.prefab using Guid(2a61b219f66bfb04897a0a91064ee2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce7af0d5c402013b94e3868bfec8b185') in 0.169924 seconds 
+  Import took 0.181570 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_B.prefab
+  artifactKey: Guid(6df99575cfadc2744886d15fc62b164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss A/Office_worker_Boss_A_B.prefab using Guid(6df99575cfadc2744886d15fc62b164c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b83fb0bb9e34ff826bb48aff219c056') in 0.168223 seconds 
+  Import took 0.180454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 225.586542 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_A.prefab
+  artifactKey: Guid(6c7fa3b712f7ca34794d5cd3f1dc841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_A.prefab using Guid(6c7fa3b712f7ca34794d5cd3f1dc841a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699e7c5c35141865a0536c3d388c743e') in 0.195554 seconds 
+  Import took 0.208104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_D.prefab
+  artifactKey: Guid(918dbee73e1383d449e3ce90f7c6f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_D.prefab using Guid(918dbee73e1383d449e3ce90f7c6f6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '446c88e23f1fdb7579796d319d32ccb1') in 0.167928 seconds 
+  Import took 0.180130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_B.prefab
+  artifactKey: Guid(b342433900dec0842b8aa660e9ef8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_B.prefab using Guid(b342433900dec0842b8aa660e9ef8931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970254252853d88f2c94873e351815fa') in 0.166478 seconds 
+  Import took 0.178812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_C.prefab
+  artifactKey: Guid(00242820db5b10d4fab16bd07d5b2c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Boss B/Office_worker_Boss_B_C.prefab using Guid(00242820db5b10d4fab16bd07d5b2c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703473b949e5c36eefa586f27e7db2fe') in 0.168015 seconds 
+  Import took 0.180435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000267 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_D.prefab
+  artifactKey: Guid(3d34600eb8f677f4b8f50ef1975faa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_D.prefab using Guid(3d34600eb8f677f4b8f50ef1975faa70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3ef59051753d2f590af38b24055293') in 0.167906 seconds 
+  Import took 0.180459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_A.prefab
+  artifactKey: Guid(a056198a887ce4f4694367eefb721bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_A.prefab using Guid(a056198a887ce4f4694367eefb721bdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4b967458cdf1f73045991ba16908bf') in 0.168273 seconds 
+  Import took 0.180807 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_C.prefab
+  artifactKey: Guid(4daeea724e766014782da4b8795725af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_C.prefab using Guid(4daeea724e766014782da4b8795725af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519e1d7d9c794d624b1997591d073d59') in 0.170536 seconds 
+  Import took 0.183355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_B.prefab
+  artifactKey: Guid(d5a28dc8434b2cd498a56fcebe6065fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Intern A/Office_worker_Intern_A_B.prefab using Guid(d5a28dc8434b2cd498a56fcebe6065fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4676ff22a393faf7b2ac58d8a22aaf5c') in 0.169985 seconds 
+  Import took 0.183669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.452036 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Backbag1.prefab
+  artifactKey: Guid(111c2f3d03e97bc4ea8db1cd73a3dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Backbag1.prefab using Guid(111c2f3d03e97bc4ea8db1cd73a3dd5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bf9faccbc17abdacf324cf6f249c34') in 0.014851 seconds 
+  Import took 0.017550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1White.prefab
+  artifactKey: Guid(d8184174262197e4a905a017e5d6b1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1White.prefab using Guid(d8184174262197e4a905a017e5d6b1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24fd3c3facff44e93788f4b6bd37e449') in 0.014525 seconds 
+  Import took 0.016798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Clipboard1.prefab
+  artifactKey: Guid(92ba34e9f048372488854335fd02a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Clipboard1.prefab using Guid(92ba34e9f048372488854335fd02a487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a62156c6e3792598f453fb6b6056965') in 0.014549 seconds 
+  Import took 0.017079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Supercyan.prefab
+  artifactKey: Guid(c154187a4296eea43a65393ee3a2d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Supercyan.prefab using Guid(c154187a4296eea43a65393ee3a2d7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6955cfa4073a15d600cf5775d759a2d') in 0.016451 seconds 
+  Import took 0.018792 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1_Blue.prefab
+  artifactKey: Guid(e1217e11f1c866748b8dc93c36f99d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1_Blue.prefab using Guid(e1217e11f1c866748b8dc93c36f99d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae2a06117033f8e5dc079ffb5bb4793') in 0.016010 seconds 
+  Import took 0.018412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MugCoaster_round_1_plain_black.prefab
+  artifactKey: Guid(1c6e59d3bf86b2f4faf3fab8b7ad6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MugCoaster_round_1_plain_black.prefab using Guid(1c6e59d3bf86b2f4faf3fab8b7ad6d8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aea0aff4a4171332c30b597cd9b5ef1') in 0.016146 seconds 
+  Import took 0.018541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_cardboard_1.prefab
+  artifactKey: Guid(28c65e098f611db4c9c0366cfee4b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_cardboard_1.prefab using Guid(28c65e098f611db4c9c0366cfee4b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7b08ba4fd043f0fcb55939954f0fcd') in 0.013960 seconds 
+  Import took 0.016370 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Plain_White.prefab
+  artifactKey: Guid(1c36d834c4adddd4b9bf442d433a88af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Plain_White.prefab using Guid(1c36d834c4adddd4b9bf442d433a88af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d07651610e6af5badd08f17f68dc3d8') in 0.013725 seconds 
+  Import took 0.016274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Coffee.prefab
+  artifactKey: Guid(31248b13aa012664b9aa0a3b22f0187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Coffee.prefab using Guid(31248b13aa012664b9aa0a3b22f0187a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853139be8040ded9c3a331f3c9e414c2') in 0.013753 seconds 
+  Import took 0.016237 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Boss.prefab
+  artifactKey: Guid(136e86ca55a7401429ec20c0b8bb28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Mug_1_Boss.prefab using Guid(136e86ca55a7401429ec20c0b8bb28d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ce404b7887679de9854695efaf03f6e') in 0.014964 seconds 
+  Import took 0.017284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000257 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1_Red.prefab
+  artifactKey: Guid(b8e9b0a4352c3b84f88bdc78dd2c353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1_Red.prefab using Guid(b8e9b0a4352c3b84f88bdc78dd2c353a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a19b85c2d0caf96d6a66d2cdb2f355') in 0.014592 seconds 
+  Import took 0.017078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1.prefab
+  artifactKey: Guid(f9732f1c349d105459c69b1fd08f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MarkerPen_1.prefab using Guid(f9732f1c349d105459c69b1fd08f65b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd103c8b18cab29e15a94cd5e5357232c') in 0.014694 seconds 
+  Import took 0.017161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1Black.prefab
+  artifactKey: Guid(0c61604a3eb42224f9a8e664995aa553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1Black.prefab using Guid(0c61604a3eb42224f9a8e664995aa553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af783b6bf6bece5076f50bbb7a21c9c0') in 0.013778 seconds 
+  Import took 0.016204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1Blue.prefab
+  artifactKey: Guid(ea527db3851c29e4f9a41eab180c5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/MobilePhone1Blue.prefab using Guid(ea527db3851c29e4f9a41eab180c5a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2abeafcb49a841e6760a4229c00c75bb') in 0.014662 seconds 
+  Import took 0.017409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Briefcase1.prefab
+  artifactKey: Guid(143977d12d1d0704d9f3b8c2c5c6dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Briefcase1.prefab using Guid(143977d12d1d0704d9f3b8c2c5c6dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4ebd693ef8f7ee0b614f2eba2e86e') in 0.014834 seconds 
+  Import took 0.017192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003473 seconds.
+  path: Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Briefcase1.prefab
+  artifactKey: Guid(143977d12d1d0704d9f3b8c2c5c6dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Supercyan/Prefabs/Office Workers/Base/High Quality/Items/Briefcase1.prefab using Guid(143977d12d1d0704d9f3b8c2c5c6dd38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffc4ebd693ef8f7ee0b614f2eba2e86e') in 0.012215 seconds 
+  Import took 0.015039 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
